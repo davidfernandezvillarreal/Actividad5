@@ -6,8 +6,8 @@ object Factorial {
   }
   
   def obtenerFactorial(numero: Int): Int = {
-    if (numero!=0) {
+    if (numero!=0) 
       return numero * obtenerFactorial(numero-1)
-    } else return 1
+    else return 1
   }
 }
