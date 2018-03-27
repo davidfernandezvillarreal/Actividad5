@@ -215,16 +215,6 @@ class PruebaAlumnos {
 
 object Actividad5_Clase_Alumnos {
   def main(args: Array[String]): Unit = {
-    /*var cardex = new ListBuffer[ListBuffer[Byte]] 
-    var semestre1, semestre2 = new ListBuffer[Byte]
-    semestre1 += (100, 90, 0, 0, 90, 80)
-    semestre2 += (70, 80, 90, 100, 90, 50)
-    cardex += (semestre1, semestre2)
-    val a = new Alumno("14070010", "David", "Fernandez", "Villarreal", 21, 7, "ISC", cardex)
-    val a1 = new Alumno()
-    println(a.obtenerCalifSemestresReprobados())
-    println(a.obtenerRFC())*/
-    
     val pa = new PruebaAlumnos()
     println("----------------------Alumno 1----------------------")
     println("Promedio General: " + pa.a1.obtenerPromedioGeneral())
